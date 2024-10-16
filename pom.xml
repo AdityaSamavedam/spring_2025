@@ -65,8 +65,7 @@
         </dependency>
         <dependency>
             <groupId>org.thymeleaf</groupId>
-            <artifactId>thymeleaf-spring5</artifactId>
-            <!-- TODO Remove once available in platform BOM -->
+            <artifactId>thymeleaf-spring6</artifactId>
             <version>${org.thymeleaf-version}</version>
         </dependency>
         <dependency>
@@ -160,10 +159,6 @@
             <artifactId>jjwt-jackson</artifactId>
             <version>0.12.3</version>
         </dependency>
-        <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
         <dependency>
             <groupId>org.commonmark</groupId>
             <artifactId>commonmark</artifactId>
